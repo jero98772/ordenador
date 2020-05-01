@@ -1,0 +1,3 @@
+1. pasar a ingles 
+2. mejorar como esta optimisado en la parte asignarele el nombre a las carpetas puede ser solucionado con len(carpetas)+1
+3. optimisar y ver que librerias son nesarias

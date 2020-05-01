@@ -8,7 +8,7 @@ directorio= "clases"
 class contenido:
 	def contenido():
 #se crea la funcion y clase contenido 
-		contenido =input(" las palabras no pueden ir separado por espacios por que creera que es otro 'comando' ni simbolos \n tema para el contenido : \n")
+		contenido = input(" las palabras no pueden ir separado por espacios por que creera que es otro 'comando' ni simbolos \n tema para el contenido : \n")
 		if contenido=="":
 			contenido= "contenido"
 #validar que el campo se llene "automaticamente"
@@ -26,9 +26,7 @@ class archivo_existe:
 			numero_carpetas=len(os.listdir(directorio))
 #numero_carpetas divide en elemntos cuantativos los elemmentos del dierctorio o carpeta 
 			print("catidad de carpetas",numero_carpetas)
-			#if not  os.walk(en_dir) in os.listdir(directorio) :
 #la condicion comemntada seria que se no se encuntra en la carpeta que se va crear para el control de el agoritmo   
-			#while numero_carpetas > numero_carpetas:
 #while "siempre" va ser una condicion verdera pero con esto impedimos que salga de control el algorimo 
 			nombre_numero_y_asignatura=nombre+str(numero_carpetas)+"__"+str(contenido)+"__"+str(hoy)								
 			print(nombre_numero_y_asignatura)
@@ -54,10 +52,7 @@ class setup:
 				carpeta_vacia=str(numero_carpetas)+"no_borrar_por_el_flujo_del_algorimo"
 				os.mkdir(directorio+"/"+carpeta_vacia)
 #si carpetas es 0 cree un carpeta inicial que afecta el flujo del algoritmo
-setup.carpeta_inical()
-contenido=contenido.contenido()
-archivo_existe.archivo_existe()
-"""
+# si se nesesita  añadir algo a para almacenar dentro de las carpetas
 class 	crear_contenido:
 	def crear_contenido():
 #se crea la funcion y clase crear_contenido
@@ -73,5 +68,7 @@ class 	crear_contenido:
 		comado_codigo=str("touch "+str(nombre)+"/"+str(contenido)+"_codigo.py")
 		subprocess.run(str(comado_codigo) , shell=True)
 #y ya mediante los comados se craea las cosas que se quieran y la cantidad que quieran y como se quieran  
-crear_contenido.crear_contenido()
-"""
+setup.carpeta_inical()
+contenido=contenido.contenido()
+archivo_existe.archivo_existe()
+#crear_contenido.crear_contenido()
