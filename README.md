@@ -13,6 +13,7 @@ y te ira pidendo datos
 
 es mas para uso de integracion en otras aplicaion manejador de archivos para una grbacion de las clases de un colegio o universidad etc...
 # que nesesito 
+
 os
 
 datetime
@@ -25,20 +26,20 @@ las puedes instalar con
 
     python3 -m pip install subprocess.run
 
-    python3 -m pip install os-sys
-
     python3 -m pip install DateTime
 
-    python3 -m pip install times
 
 
 si teda error 13 prueba con sudo al principio puedes intentar con
 
-	sudo python3 -m pip install subprocess.run os-sys DateTime times
+	sudo python3 -m pip install subprocess.run  DateTime
 
 un comando para instalar todo de una es
 
 	python3 -m pip install subprocess.run os-sys DateTime times
+### nota
+
+no nesitas instalar os ni time por que hacen parte de la libreria estandar de python
 
 # las partes del programa
 
