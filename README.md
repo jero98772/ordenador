@@ -58,7 +58,3 @@ crea contenido dentro de las carpetas creadas con algunos comandos del sitema co
     touch
  con la libreria subprocess con el comando 
     subprocess.run("touch <nombre archivo>",shell=True)
-
-#### contibuye con donaciones 
-	
-	- Bitcoin: bc1qf3eh6ssgzw2t3qyjk2gzwuskq4ctfk8375fg3r
